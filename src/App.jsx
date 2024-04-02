@@ -1,9 +1,7 @@
 import { useState, useEffect } from 'react'
-
 import './App.css'
 
 function App() {
-  
   const [data, setData] = useState()
   const[page,setPage] = useState(1)
   const[isLoading, setLoading] = useState(false)
